@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    font-family: sans-serif;
+    color: rgb(242, 65, 34);
+    margin-left: 7%;
+}
+
+body{
+    background-image:url(/Imagens/Login_screen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center top;
+    font-family: sans-serif;
+    font-size: 1em;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+input, select, textarea button{
+    border-radius: 5px;
+}
+
+.campo{
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color: rgb(242, 65, 34);
+    display: block;
+}
+
+fieldset.grupo .campo{
+    float:left;
+    margin-left: 0.5em;
+}
+
+.campo input[type="text"], .campo input[type="email"]{
+    padding: 0.2em;
+    border: 1px solid red;
+    box-shadow: 2px 2px 2px rgb(255, 68, 51);
+}
+
+.campo select option{
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #e0e0f8;
+} 
+
+.Envio {
+    font-size: 1.2em;
+    background: #EA340C;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgb(239, 97, 10);
+    text-shadow: 1px 1px 1px rgb(240, 105, 22);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50% -50%);
+    cursor: pointer;
+}
+
+.Envio:hover {
+    background: #e0c421;
+    box-shadow: inset 2px 2px 2px rgb(239, 97, 10) ;
+    text-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.title{
+    color: red;
+    background: fixed;
+    border-radius: 8px;
+}
+
+.nav-button{
+    border:0;
+    border-radius:4px;
+    padding:8px;
+    background-color:rgb(242, 65, 34);
+    margin: 8px;
+    cursor: pointer;
+}
+
+.nav-button{
+    color: #FFF;
+}
+
+.overlay{
+    width: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.543);
+    z-index: 9;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+    transition: all 0.5s;
+}
+
+.overlay-content{
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a{
+    padding: 8px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    font-size: 34px;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus{
+    color: #f1f1f1;
+}
+
+.overlay .closebtn{
+    position: absolute;
+    top: 25px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height:450){
+    .overlay a {font-size: 20px;}
+    .overlay, .closebtn{
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
