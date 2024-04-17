@@ -5,7 +5,7 @@
 
 .title{
     font-family: sans-serif;
-    color: rgb(242, 65, 34);
+    color:  rgb(0, 255, 149);
     margin-left: 7%;
 }
 
@@ -31,7 +31,7 @@ input, select, textarea button{
 
 .campo label{
     margin-bottom: 0.2em;
-    color: rgb(242, 65, 34);
+    color:  rgb(0, 255, 149);
     display: block;
 }
 
@@ -42,8 +42,8 @@ fieldset.grupo .campo{
 
 .campo input[type="text"], .campo input[type="email"]{
     padding: 0.2em;
-    border: 1px solid red;
-    box-shadow: 2px 2px 2px rgb(255, 68, 51);
+    border: 1px solid rgb(0, 255, 149);
+    box-shadow: 2px 2px 2px rgb(0, 247, 255);
 }
 
 .campo select option{
@@ -56,13 +56,13 @@ fieldset.grupo .campo{
 
 .Envio {
     font-size: 1.2em;
-    background: #EA340C;
+    background:  rgb(0, 255, 149);
     border: 0;
     margin-bottom: 1em;
     color: #ffffff;
     padding: 0.2em 0.6em;
-    box-shadow: 2px 2px 2px rgb(239, 97, 10);
-    text-shadow: 1px 1px 1px rgb(240, 105, 22);
+    box-shadow: 2px 2px 2px rgb(3, 255, 179);
+    text-shadow: 1px 1px 1px rgb(0, 255, 157);
     position: absolute;
     top: 90%;
     left: 50%;
@@ -72,8 +72,8 @@ fieldset.grupo .campo{
 }
 
 .Envio:hover {
-    background: #e0c421;
-    box-shadow: inset 2px 2px 2px rgb(239, 97, 10) ;
+    background: #00ff88;
+    box-shadow: inset 2px 2px 2px rgb(0, 255, 136) ;
     text-shadow: none;
 }
 
