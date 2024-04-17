@@ -10,7 +10,7 @@
 }
 
 body{
-    background-image:url(/Imagens/Login_screen.jpg);
+    background-image:url(Imagens/Login_screen.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right center top;
